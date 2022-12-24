@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: 4602ab4c69adbe947892e00735be4564
+ModelImporter:
+  serializedVersion: 22102
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Beer Glass
+  - first:
+      1: 100002
+    second: Beer Mug
+  - first:
+      1: 100004
+    second: brandy glass
+  - first:
+      1: 100006
+    second: Champ Wide Glass
+  - first:
+      1: 100008
+    second: Chant Glass
+  - first:
+      1: 100010
+    second: Cocktail Glass
+  - first:
+      1: 100012
+    second: cup curved glass
+  - first:
+      1: 100014
+    second: curved beer glass
+  - first:
+      1: 100016
+    second: curved beer glass_Liquid
+  - first:
+      1: 100018
+    second: curved beer special glass
+  - first:
+      1: 100020
+    second: curved beer special glass Liquid
+  - first:
+      1: 100022
+    second: Drink Fancy Glass
+  - first:
+      1: 100024
+    second: Drink glass 02
+  - first:
+      1: 100026
+    second: Drink glass 02_Liquid
+  - first:
+      1: 100028
+    second: Drink glass_01
+  - first:
+      1: 100030
+    second: Flute Glass_01
+  - first:
+      1: 100032
+    second: Flute Glass_02
+  - first:
+      1: 100034
+    second: Flute Glass_03
+  - first:
+      1: 100036
+    second: //RootNode
+  - first:
+      1: 100038
+    second: Highball
+  - first:
+      1: 100040
+    second: Highball_Liquid
+  - first:
+      1: 100042
+    second: Label
+  - first:
+      1: 100044
+    second: Lime
+  - first:
+      1: 100046
+    second: Lime.001
+  - first:
+      1: 100048
+    second: Liquid
+  - first:
+      1: 100050
+    second: Liquid.001
+  - first:
+      1: 100052
+    second: Liquid.002
+  - first:
+      1: 100054
+    second: Liquid.003
+  - first:
+      1: 100056
+    second: Liquid.004
+  - first:
+      1: 100058
+    second: Liquid.005
+  - first:
+      1: 100060
+    second: Liquid.006
+  - first:
+      1: 100062
+    second: Liquid.007
+  - first:
+      1: 100064
+    second: Liquid.008
+  - first:
+      1: 100066
+    second: Liquid.009
+  - first:
+      1: 100068
+    second: Liquid.010
+  - first:
+      1: 100070
+    second: Liquid.011
+  - first:
+      1: 100072
+    second: Liquid.016
+  - first:
+      1: 100074
+    second: margarita glass
+  - first:
+      1: 100076
+    second: Martini_01
+  - first:
+      1: 100078
+    second: Martini_02
+  - first:
+      1: 100080
+    second: Shot Glass
+  - first:
+      1: 100082
+    second: Shot Glass_Liquid
+  - first:
+      1: 100084
+    second: Snifter glass
+  - first:
+      1: 100086
+    second: Snifter glass_Liquid
+  - first:
+      1: 100088
+    second: Tall Beer glass
+  - first:
+      1: 100090
+    second: Tall Beer glass_Liquid
+  - first:
+      1: 100092
+    second: Umbrella
+  - first:
+      1: 100094
+    second: Umbrella.001
+  - first:
+      1: 100096
+    second: Whisky Glass
+  - first:
+      1: 100098
+    second: Whisky Square Glass
+  - first:
+      1: 100100
+    second: Wine Glass
+  - first:
+      1: 100102
+    second: Wine Glass Fancy
+  - first:
+      1: 100104
+    second: Wine Glass Fancy_Liquid
+  - first:
+      1: 100106
+    second: Wine Glass Wide
+  - first:
+      1: 100108
+    second: Wine Glass.001
+  - first:
+      1: 100110
+    second: Wine Thin Glass_01
+  - first:
+      1: 100112
+    second: Wine Thin Glass_02
+  - first:
+      4: 400000
+    second: Beer Glass
+  - first:
+      4: 400002
+    second: Beer Mug
+  - first:
+      4: 400004
+    second: brandy glass
+  - first:
+      4: 400006
+    second: Champ Wide Glass
+  - first:
+      4: 400008
+    second: Chant Glass
+  - first:
+      4: 400010
+    second: Cocktail Glass
+  - first:
+      4: 400012
+    second: cup curved glass
+  - first:
+      4: 400014
+    second: curved beer glass
+  - first:
+      4: 400016
+    second: curved beer glass_Liquid
+  - first:
+      4: 400018
+    second: curved beer special glass
+  - first:
+      4: 400020
+    second: curved beer special glass Liquid
+  - first:
+      4: 400022
+    second: Drink Fancy Glass
+  - first:
+      4: 400024
+    second: Drink glass 02
+  - first:
+      4: 400026
+    second: Drink glass 02_Liquid
+  - first:
+      4: 400028
+    second: Drink glass_01
+  - first:
+      4: 400030
+    second: Flute Glass_01
+  - first:
+      4: 400032
+    second: Flute Glass_02
+  - first:
+      4: 400034
+    second: Flute Glass_03
+  - first:
+      4: 400036
+    second: //RootNode
+  - first:
+      4: 400038
+    second: Highball
+  - first:
+      4: 400040
+    second: Highball_Liquid
+  - first:
+      4: 400042
+    second: Label
+  - first:
+      4: 400044
+    second: Lime
+  - first:
+      4: 400046
+    second: Lime.001
+  - first:
+      4: 400048
+    second: Liquid
+  - first:
+      4: 400050
+    second: Liquid.001
+  - first:
+      4: 400052
+    second: Liquid.002
+  - first:
+      4: 400054
+    second: Liquid.003
+  - first:
+      4: 400056
+    second: Liquid.004
+  - first:
+      4: 400058
+    second: Liquid.005
+  - first:
+      4: 400060
+    second: Liquid.006
+  - first:
+      4: 400062
+    second: Liquid.007
+  - first:
+      4: 400064
+    second: Liquid.008
+  - first:
+      4: 400066
+    second: Liquid.009
+  - first:
+      4: 400068
+    second: Liquid.010
+  - first:
+      4: 400070
+    second: Liquid.011
+  - first:
+      4: 400072
+    second: Liquid.016
+  - first:
+      4: 400074
+    second: margarita glass
+  - first:
+      4: 400076
+    second: Martini_01
+  - first:
+      4: 400078
+    second: Martini_02
+  - first:
+      4: 400080
+    second: Shot Glass
+  - first:
+      4: 400082
+    second: Shot Glass_Liquid
+  - first:
+      4: 400084
+    second: Snifter glass
+  - first:
+      4: 400086
+    second: Snifter glass_Liquid
+  - first:
+      4: 400088
+    second: Tall Beer glass
+  - first:
+      4: 400090
+    second: Tall Beer glass_Liquid
+  - first:
+      4: 400092
+    second: Umbrella
+  - first:
+      4: 400094
+    second: Umbrella.001
+  - first:
+      4: 400096
+    second: Whisky Glass
+  - first:
+      4: 400098
+    second: Whisky Square Glass
+  - first:
+      4: 400100
+    second: Wine Glass
+  - first:
+      4: 400102
+    second: Wine Glass Fancy
+  - first:
+      4: 400104
+    second: Wine Glass Fancy_Liquid
+  - first:
+      4: 400106
+    second: Wine Glass Wide
+  - first:
+      4: 400108
+    second: Wine Glass.001
+  - first:
+      4: 400110
+    second: Wine Thin Glass_01
+  - first:
+      4: 400112
+    second: Wine Thin Glass_02
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      23: 2300000
+    second: Beer Glass
+  - first:
+      23: 2300002
+    second: Beer Mug
+  - first:
+      23: 2300004
+    second: brandy glass
+  - first:
+      23: 2300006
+    second: Champ Wide Glass
+  - first:
+      23: 2300008
+    second: Chant Glass
+  - first:
+      23: 2300010
+    second: Cocktail Glass
+  - first:
+      23: 2300012
+    second: cup curved glass
+  - first:
+      23: 2300014
+    second: curved beer glass
+  - first:
+      23: 2300016
+    second: curved beer glass_Liquid
+  - first:
+      23: 2300018
+    second: curved beer special glass
+  - first:
+      23: 2300020
+    second: curved beer special glass Liquid
+  - first:
+      23: 2300022
+    second: Drink Fancy Glass
+  - first:
+      23: 2300024
+    second: Drink glass 02
+  - first:
+      23: 2300026
+    second: Drink glass 02_Liquid
+  - first:
+      23: 2300028
+    second: Drink glass_01
+  - first:
+      23: 2300030
+    second: Flute Glass_01
+  - first:
+      23: 2300032
+    second: Flute Glass_02
+  - first:
+      23: 2300034
+    second: Flute Glass_03
+  - first:
+      23: 2300036
+    second: Highball
+  - first:
+      23: 2300038
+    second: Highball_Liquid
+  - first:
+      23: 2300040
+    second: Label
+  - first:
+      23: 2300042
+    second: Lime
+  - first:
+      23: 2300044
+    second: Lime.001
+  - first:
+      23: 2300046
+    second: Liquid
+  - first:
+      23: 2300048
+    second: Liquid.001
+  - first:
+      23: 2300050
+    second: Liquid.002
+  - first:
+      23: 2300052
+    second: Liquid.003
+  - first:
+      23: 2300054
+    second: Liquid.004
+  - first:
+      23: 2300056
+    second: Liquid.005
+  - first:
+      23: 2300058
+    second: Liquid.006
+  - first:
+      23: 2300060
+    second: Liquid.007
+  - first:
+      23: 2300062
+    second: Liquid.008
+  - first:
+      23: 2300064
+    second: Liquid.009
+  - first:
+      23: 2300066
+    second: Liquid.010
+  - first:
+      23: 2300068
+    second: Liquid.011
+  - first:
+      23: 2300070
+    second: Liquid.016
+  - first:
+      23: 2300072
+    second: margarita glass
+  - first:
+      23: 2300074
+    second: Martini_01
+  - first:
+      23: 2300076
+    second: Martini_02
+  - first:
+      23: 2300078
+    second: Shot Glass
+  - first:
+      23: 2300080
+    second: Shot Glass_Liquid
+  - first:
+      23: 2300082
+    second: Snifter glass
+  - first:
+      23: 2300084
+    second: Snifter glass_Liquid
+  - first:
+      23: 2300086
+    second: Tall Beer glass
+  - first:
+      23: 2300088
+    second: Tall Beer glass_Liquid
+  - first:
+      23: 2300090
+    second: Umbrella
+  - first:
+      23: 2300092
+    second: Umbrella.001
+  - first:
+      23: 2300094
+    second: Whisky Glass
+  - first:
+      23: 2300096
+    second: Whisky Square Glass
+  - first:
+      23: 2300098
+    second: Wine Glass
+  - first:
+      23: 2300100
+    second: Wine Glass Fancy
+  - first:
+      23: 2300102
+    second: Wine Glass Fancy_Liquid
+  - first:
+      23: 2300104
+    second: Wine Glass Wide
+  - first:
+      23: 2300106
+    second: Wine Glass.001
+  - first:
+      23: 2300108
+    second: Wine Thin Glass_01
+  - first:
+      23: 2300110
+    second: Wine Thin Glass_02
+  - first:
+      33: 3300000
+    second: Beer Glass
+  - first:
+      33: 3300002
+    second: Beer Mug
+  - first:
+      33: 3300004
+    second: brandy glass
+  - first:
+      33: 3300006
+    second: Champ Wide Glass
+  - first:
+      33: 3300008
+    second: Chant Glass
+  - first:
+      33: 3300010
+    second: Cocktail Glass
+  - first:
+      33: 3300012
+    second: cup curved glass
+  - first:
+      33: 3300014
+    second: curved beer glass
+  - first:
+      33: 3300016
+    second: curved beer glass_Liquid
+  - first:
+      33: 3300018
+    second: curved beer special glass
+  - first:
+      33: 3300020
+    second: curved beer special glass Liquid
+  - first:
+      33: 3300022
+    second: Drink Fancy Glass
+  - first:
+      33: 3300024
+    second: Drink glass 02
+  - first:
+      33: 3300026
+    second: Drink glass 02_Liquid
+  - first:
+      33: 3300028
+    second: Drink glass_01
+  - first:
+      33: 3300030
+    second: Flute Glass_01
+  - first:
+      33: 3300032
+    second: Flute Glass_02
+  - first:
+      33: 3300034
+    second: Flute Glass_03
+  - first:
+      33: 3300036
+    second: Highball
+  - first:
+      33: 3300038
+    second: Highball_Liquid
+  - first:
+      33: 3300040
+    second: Label
+  - first:
+      33: 3300042
+    second: Lime
+  - first:
+      33: 3300044
+    second: Lime.001
+  - first:
+      33: 3300046
+    second: Liquid
+  - first:
+      33: 3300048
+    second: Liquid.001
+  - first:
+      33: 3300050
+    second: Liquid.002
+  - first:
+      33: 3300052
+    second: Liquid.003
+  - first:
+      33: 3300054
+    second: Liquid.004
+  - first:
+      33: 3300056
+    second: Liquid.005
+  - first:
+      33: 3300058
+    second: Liquid.006
+  - first:
+      33: 3300060
+    second: Liquid.007
+  - first:
+      33: 3300062
+    second: Liquid.008
+  - first:
+      33: 3300064
+    second: Liquid.009
+  - first:
+      33: 3300066
+    second: Liquid.010
+  - first:
+      33: 3300068
+    second: Liquid.011
+  - first:
+      33: 3300070
+    second: Liquid.016
+  - first:
+      33: 3300072
+    second: margarita glass
+  - first:
+      33: 3300074
+    second: Martini_01
+  - first:
+      33: 3300076
+    second: Martini_02
+  - first:
+      33: 3300078
+    second: Shot Glass
+  - first:
+      33: 3300080
+    second: Shot Glass_Liquid
+  - first:
+      33: 3300082
+    second: Snifter glass
+  - first:
+      33: 3300084
+    second: Snifter glass_Liquid
+  - first:
+      33: 3300086
+    second: Tall Beer glass
+  - first:
+      33: 3300088
+    second: Tall Beer glass_Liquid
+  - first:
+      33: 3300090
+    second: Umbrella
+  - first:
+      33: 3300092
+    second: Umbrella.001
+  - first:
+      33: 3300094
+    second: Whisky Glass
+  - first:
+      33: 3300096
+    second: Whisky Square Glass
+  - first:
+      33: 3300098
+    second: Wine Glass
+  - first:
+      33: 3300100
+    second: Wine Glass Fancy
+  - first:
+      33: 3300102
+    second: Wine Glass Fancy_Liquid
+  - first:
+      33: 3300104
+    second: Wine Glass Wide
+  - first:
+      33: 3300106
+    second: Wine Glass.001
+  - first:
+      33: 3300108
+    second: Wine Thin Glass_01
+  - first:
+      33: 3300110
+    second: Wine Thin Glass_02
+  - first:
+      43: 4300000
+    second: Wine Glass.001
+  - first:
+      43: 4300002
+    second: Liquid.016
+  - first:
+      43: 4300004
+    second: Flute Glass_01
+  - first:
+      43: 4300006
+    second: Liquid.004
+  - first:
+      43: 4300008
+    second: Champ Wide Glass
+  - first:
+      43: 4300010
+    second: Liquid.002
+  - first:
+      43: 4300012
+    second: Beer Mug
+  - first:
+      43: 4300014
+    second: Liquid.011
+  - first:
+      43: 4300016
+    second: Wine Glass Wide
+  - first:
+      43: 4300018
+    second: Liquid
+  - first:
+      43: 4300020
+    second: Wine Glass
+  - first:
+      43: 4300022
+    second: Liquid.010
+  - first:
+      43: 4300024
+    second: Cocktail Glass
+  - first:
+      43: 4300026
+    second: Liquid.003
+  - first:
+      43: 4300028
+    second: Lime.001
+  - first:
+      43: 4300030
+    second: Umbrella.001
+  - first:
+      43: 4300032
+    second: Beer Glass
+  - first:
+      43: 4300034
+    second: Liquid.007
+  - first:
+      43: 4300036
+    second: Label
+  - first:
+      43: 4300038
+    second: margarita glass
+  - first:
+      43: 4300040
+    second: Liquid.005
+  - first:
+      43: 4300042
+    second: Umbrella
+  - first:
+      43: 4300044
+    second: Lime
+  - first:
+      43: 4300046
+    second: Chant Glass
+  - first:
+      43: 4300048
+    second: Liquid.009
+  - first:
+      43: 4300050
+    second: brandy glass
+  - first:
+      43: 4300052
+    second: Liquid.001
+  - first:
+      43: 4300054
+    second: Drink Fancy Glass
+  - first:
+      43: 4300056
+    second: Liquid.008
+  - first:
+      43: 4300058
+    second: Flute Glass_03
+  - first:
+      43: 4300060
+    second: Liquid.006
+  - first:
+      43: 4300062
+    second: Martini_01
+  - first:
+      43: 4300064
+    second: cup curved glass
+  - first:
+      43: 4300066
+    second: curved beer glass
+  - first:
+      43: 4300068
+    second: curved beer special glass
+  - first:
+      43: 4300070
+    second: curved beer glass_Liquid
+  - first:
+      43: 4300072
+    second: curved beer special glass Liquid
+  - first:
+      43: 4300074
+    second: Drink glass 02
+  - first:
+      43: 4300076
+    second: Drink glass 02_Liquid
+  - first:
+      43: 4300078
+    second: Drink glass_01
+  - first:
+      43: 4300080
+    second: Flute Glass_02
+  - first:
+      43: 4300082
+    second: Highball
+  - first:
+      43: 4300084
+    second: Highball_Liquid
+  - first:
+      43: 4300086
+    second: Martini_02
+  - first:
+      43: 4300088
+    second: Shot Glass
+  - first:
+      43: 4300090
+    second: Shot Glass_Liquid
+  - first:
+      43: 4300092
+    second: Snifter glass
+  - first:
+      43: 4300094
+    second: Snifter glass_Liquid
+  - first:
+      43: 4300096
+    second: Tall Beer glass
+  - first:
+      43: 4300098
+    second: Tall Beer glass_Liquid
+  - first:
+      43: 4300100
+    second: Whisky Glass
+  - first:
+      43: 4300102
+    second: Whisky Square Glass
+  - first:
+      43: 4300104
+    second: Wine Thin Glass_02
+  - first:
+      43: 4300106
+    second: Wine Thin Glass_01
+  - first:
+      43: 4300108
+    second: Wine Glass Fancy
+  - first:
+      43: 4300110
+    second: Wine Glass Fancy_Liquid
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
