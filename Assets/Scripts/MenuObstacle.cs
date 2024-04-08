@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MenuObstacle : MonoBehaviour
@@ -8,6 +6,7 @@ public class MenuObstacle : MonoBehaviour
     public float maxPosX;
     public float minRotY;
     public float maxRotY;
+
     private void Awake()
     {
         float randRotY = Random.Range(minRotY, maxRotY);

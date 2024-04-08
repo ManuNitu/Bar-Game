@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnObstacle : MonoBehaviour
 {
     public Transform[] positions;
     public GameObject[] obstacles;
+
     private void Awake()
     {
         for (int i = 0; i < positions.Length; i++)

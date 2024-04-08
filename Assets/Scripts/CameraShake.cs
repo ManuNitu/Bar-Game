@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+
 public class CameraShake : MonoBehaviour
 {
     public static CameraShake Instance { get; private set; }
@@ -14,6 +13,7 @@ public class CameraShake : MonoBehaviour
         Instance = this;
         CMvcam = GetComponent<CinemachineVirtualCamera>();
     }
+
     public void ShakeCamera(float intensity, float time)
     {
         CinemachineBasicMultiChannelPerlin CMbmcp = CMvcam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
@@ -21,6 +21,7 @@ public class CameraShake : MonoBehaviour
         CMbmcp.m_AmplitudeGain = intensity;
         shakeTimer = time;
     }
+
     private void Update()
     {
         if (shakeTimer > 0)

@@ -1,32 +1,36 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+
 public class WhiskyController : MonoBehaviour
 {
     public float moveSpeed;
     public float forwardSpeed;
     public float camShakeForce;
     public float camShakeDuration;
-    private Rigidbody rb;
-    float inputDirection;
-    private int hp = 3;
     public Sprite[] hpSprites;
     public GameObject[] whiskyLevels;
+    public GameObject whiskyGlassBreakSound;
+
+    private bool finished;
+    private int hp = 3;
+    private float inputDirection;
+    private Rigidbody rb;
     private Image hpImage;
     private MeshDestroy meshDestroy;
-    public GameObject whiskyGlassBreakSound;
     private GameObject lastCollision;
-    private bool finished;
+    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         meshDestroy = GetComponent<MeshDestroy>();
-        Invoke("StartMoving", 2f);
+
         hpImage = GameObject.FindGameObjectWithTag("hpImage").GetComponent<Image>();
-        hpImage.sprite = hpSprites[hp];  
+        hpImage.sprite = hpSprites[hp];
+
+        Invoke("StartMoving", 2f);
     }
+
     private void FixedUpdate()
     {
         if (finished)
@@ -36,10 +40,12 @@ public class WhiskyController : MonoBehaviour
         Vector3 horizontalMove = transform.right * inputDirection * moveSpeed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + forwardMove + horizontalMove);
     }
+
     private void Update()
     {
         inputDirection = Input.GetAxisRaw("Horizontal");
     }
+
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "finish")
@@ -47,6 +53,7 @@ public class WhiskyController : MonoBehaviour
             TransitionPanel.Instance.Transition("Win Scene");
             finished = true;
         }
+
         if (collision.gameObject.tag == "bottle")
         {
             if(lastCollision && lastCollision == collision.gameObject)
@@ -57,6 +64,7 @@ public class WhiskyController : MonoBehaviour
 
             lastCollision = collision.gameObject;
         }
+
         if(collision.gameObject.tag == "solid")
         {
             if (lastCollision && lastCollision == collision.gameObject)
@@ -68,6 +76,7 @@ public class WhiskyController : MonoBehaviour
             lastCollision = collision.gameObject;
         }
     }
+
     void TakeDamage()
     {
         hp--;
@@ -79,6 +88,7 @@ public class WhiskyController : MonoBehaviour
         if (hp >= 1)
             whiskyLevels[hp - 1].SetActive(true);
         hpImage.sprite = hpSprites[hp];
+
         if (hp == 0)
         {
             Instantiate(whiskyGlassBreakSound, transform.position, Quaternion.identity);

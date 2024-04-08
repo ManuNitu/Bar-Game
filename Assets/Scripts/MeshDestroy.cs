@@ -1,18 +1,15 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MeshDestroy : MonoBehaviour
 {
+    public int CutCascades = 1;
+    public float ExplodeForce = 0;
+
     private bool edgeSet = false;
     private Vector3 edgeVertex = Vector3.zero;
     private Vector2 edgeUV = Vector2.zero;
     private Plane edgePlane = new Plane();
-
-    public int CutCascades = 1;
-    public float ExplodeForce = 0;
-
 
     public void DestroyMesh()
     {
@@ -29,6 +26,7 @@ public class MeshDestroy : MonoBehaviour
             Triangles = new int[originalMesh.subMeshCount][],
             Bounds = originalMesh.bounds
         };
+
         for (int i = 0; i < originalMesh.subMeshCount; i++)
             mainPart.Triangles[i] = originalMesh.GetTriangles(i);
 
@@ -264,8 +262,10 @@ public class MeshDestroy : MonoBehaviour
             mesh.vertices = Vertices;
             mesh.normals = Normals;
             mesh.uv = UV;
+
             for (var i = 0; i < Triangles.Length; i++)
                 mesh.SetTriangles(Triangles[i], i, true);
+
             Bounds = mesh.bounds;
 
             var renderer = GameObject.AddComponent<MeshRenderer>();
@@ -278,10 +278,12 @@ public class MeshDestroy : MonoBehaviour
             collider.convex = true;
 
             GameObject.layer = 9;
+
             var rigidbody = GameObject.AddComponent<Rigidbody>();
             var meshDestroy = GameObject.AddComponent<MeshDestroy>();
             meshDestroy.CutCascades = original.CutCascades;
             meshDestroy.ExplodeForce = original.ExplodeForce;
+
             Destroy(GameObject, 1.5f);
 
         }

@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Pause : MonoBehaviour
 {
     public GameObject PausePanel;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -16,6 +15,7 @@ public class Pause : MonoBehaviour
            
         }
     }
+
     void Paused()
     {
         AudioManager.Instance.PauseMusic();
@@ -23,6 +23,7 @@ public class Pause : MonoBehaviour
 
         Time.timeScale = 0f;
     }
+
     public void Resume()
     {
         Time.timeScale = 1f;
@@ -30,6 +31,7 @@ public class Pause : MonoBehaviour
         AudioManager.Instance.ResumeMusic();
         PausePanel.SetActive(false);
     }
+
     public void MainMenu()
     {
         Resume();

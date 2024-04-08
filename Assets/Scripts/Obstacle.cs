@@ -1,12 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
     public GameObject hitSoundEffect;
+
     private MeshDestroy meshDestroy;
     private Rigidbody rb;
+
     private void Awake()
     {
         meshDestroy = GetComponent<MeshDestroy>();
